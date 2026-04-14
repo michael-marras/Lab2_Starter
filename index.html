@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Michael's Meeting Minutes</title>
+    <link rel="icon" href="/favicon_16x16.png" type="image/x-icon">
+    <meta name="Description" content="Meeting Notes for Pied Piper">
+  </head>
+  <body>
+    <header>
+      <h1>Team Meeting</h1>
+      <h2>Brain Storm</h2>
+      <h3>April 04, 2026</h3>
+    </header>
+
+    <nav>
+      <a href="#attendance">Attendance</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#old-business">Old Business</a>
+      <a href="#new-business">New Business</a>
+      <a href="#misc">Misc</a>
+      <a href="#media">Media</a>
+    </nav>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ol>
+          <li>Michael</li>
+          <li>Cindy</li>
+          <li>Kareem</li>
+          <li>Abby</li>
+        </ol>
+      </section>
+
+      <hr>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ul>
+          <li>Team Name</li>
+          <li>Project Ideas</li>
+          <li>poop</li>
+          <li>Github Repo
+            <ul>
+              <li><b>Theo</b> is on it</li>
+            </ul>
+          </li>
+        </ul>
+        <img src="Photo.jpg" alt="Whiteboard diagram from brainstorm session"/>
+      </section>
+
+      <hr>
+
+      <section id="old-business">
+        <h2>Old Business</h2>
+        <p>The following items were <em>unfinished</em> from last meeting:</p>
+        <ul>
+          <li>Decide on a <strong>team name</strong></li>
+          <li>Set up the <i>GitHub</i> repository</li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <section id="new-business">
+        <h2>New Business</h2>
+        <p>The following <strong>new items</strong> were discussed:</p>
+        <div>
+          <ul>
+            <li>Brainstorm project ideas</li>
+            <li>Assign roles to team members</li>
+            <li>Schedule next meeting</li>
+          </ul>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="misc">
+        <h2>Miscellaneous</h2>
+        <p>Any <em>comments</em>, questions, or concerns: <br>
+          — <span>Abby asked about deadlines.</span> <br>
+          — Kareem will be <b>late</b> to next meeting.
+        </p>
+
+        <details>
+          <summary>See full discussion notes</summary>
+          <p>The team discussed potential names including <i>Pied Piper</i> and 
+          <i>Hooli</i>. No final decision was made.</p>
+        </details>
+      </section>
+
+      <hr>
+
+      <section id="media">
+        <h2>Media</h2>
+        <p><strong>Audio recording</strong> of the meeting:</p>
+        <audio controls>
+          <source src="meeting.m4a" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <br><br>
+
+        <p><strong>Video recording</strong> of the meeting:</p>
+        <video controls width="400">
+          <source src="meeting.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p>Minutes Recorded by <strong>Michael</strong></p>
+
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Meeting Feedback</legend>
+
+          <p>Name: <input type="text" name="name"></p>
+
+          <p>Date of Meeting: <input type="date" name="date"></p>
+
+          <p>How was the meeting?</p>
+          <input type="radio" name="rating" value="good"> Good <br>
+          <input type="radio" name="rating" value="ok"> OK <br>
+          <input type="radio" name="rating" value="bad"> Bad <br>
+
+          <p>Topics covered:</p>
+          <input type="checkbox" name="topic" value="name"> Team Name <br>
+          <input type="checkbox" name="topic" value="ideas"> Project Ideas <br>
+          <input type="checkbox" name="topic" value="repo"> GitHub Repo <br>
+
+          <p>Favorite meeting snack:</p>
+          <input type="text" name="snack" list="snacks">
+          <datalist id="snacks">
+            <option value="Pizza">
+            <option value="Chips">
+            <option value="Coffee">
+          </datalist>
+
+          <p>Additional comments:</p>
+          <textarea name="comments" rows="4" cols="40"></textarea>
+
+          <p>Preferred follow-up method:</p>
+          <select name="followup">
+            <option value="email">Email</option>
+            <option value="slack">Slack</option>
+            <option value="none">None</option>
+          </select>
+
+          <br><br>
+          <button type="submit">Submit Feedback</button>
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
